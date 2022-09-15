@@ -1,0 +1,52 @@
+2022-09-13 14:35:22,754:DEBUG:test:test logger initialized
+2022-09-13 14:35:22,755:DEBUG:test:Test
+2022-09-13 14:46:16,249:DEBUG:TestApplication:TestApplication logger initialized
+2022-09-13 14:46:47,688:DEBUG:TestApplication:TestApplication logger initialized
+2022-09-13 14:46:51,759:DEBUG:TestApplication:Loading URL
+2022-09-13 14:46:52,910:DEBUG:TestApplication:Clicked on element located by id, btnVerify
+2022-09-15 09:49:42,230:DEBUG:TestApplication:TestApplication logger initialized
+2022-09-15 09:51:09,931:DEBUG:TestApplication:TestApplication logger initialized
+2022-09-15 09:51:12,675:DEBUG:TestApplication:Page before loading: data:,
+2022-09-15 09:51:14,915:DEBUG:TestApplication:Load URL: https://plleads.muthootfinance.com/indexApplication.html
+2022-09-15 09:51:14,919:DEBUG:TestApplication:Page after loading: https://plleads.muthootfinance.com/indexApplication.html
+2022-09-15 09:51:14,928:DEBUG:TestApplication:Page before loading: https://plleads.muthootfinance.com/indexApplication.html
+2022-09-15 09:51:15,199:DEBUG:TestApplication:Load URL: https://plleads.muthootfinance.com/indexApplication.html
+2022-09-15 09:51:15,204:DEBUG:TestApplication:Page after loading: https://plleads.muthootfinance.com/indexApplication.html
+2022-09-15 09:51:15,204:DEBUG:TestApplication:Select element by:id, loc:ddlArea, by value "11112"
+2022-09-15 09:51:15,205:DEBUG:TestApplication:Finding elemnt by: id locator: ddlArea
+2022-09-15 09:51:15,214:DEBUG:TestApplication:Element found in html
+2022-09-15 09:51:15,270:DEBUG:TestApplication:Select element by:id, loc:ddlSourceOfIncome, by value "1"
+2022-09-15 09:51:15,270:DEBUG:TestApplication:Finding elemnt by: id locator: ddlSourceOfIncome
+2022-09-15 09:51:15,280:DEBUG:TestApplication:Element found in html
+2022-09-15 09:51:15,330:DEBUG:TestApplication:Type 1234567890 into id, txtMobileNo
+2022-09-15 09:51:15,345:DEBUG:TestApplication:Finding elemnt by: id locator: txtMobileNo
+2022-09-15 09:51:15,349:DEBUG:TestApplication:Element found in html
+2022-09-15 09:51:15,535:DEBUG:TestApplication:Type 06/09/2004 into id, txtDOB
+2022-09-15 09:51:15,552:DEBUG:TestApplication:Finding elemnt by: id locator: txtDOB
+2022-09-15 09:51:15,558:DEBUG:TestApplication:Element found in html
+2022-09-15 09:51:15,673:DEBUG:TestApplication:Type AAAPA1234A into id, txtPanNo
+2022-09-15 09:51:15,689:DEBUG:TestApplication:Finding elemnt by: id locator: txtPanNo
+2022-09-15 09:51:15,693:DEBUG:TestApplication:Element found in html
+2022-09-15 09:51:15,794:DEBUG:TestApplication:Click on element by id locator btnVerify
+2022-09-15 09:51:15,794:DEBUG:TestApplication:Finding elemnt by: id locator: btnVerify
+2022-09-15 09:51:15,803:DEBUG:TestApplication:Element found in html
+2022-09-15 09:52:53,694:DEBUG:TestApplication:TestApplication logger initialized
+2022-09-15 09:52:55,961:DEBUG:TestApplication:Page before loading: data:,
+2022-09-15 09:52:57,886:DEBUG:TestApplication:Load URL: https://plleads.muthootfinance.com/indexApplication.html
+2022-09-15 09:52:57,890:DEBUG:TestApplication:Page after loading: https://plleads.muthootfinance.com/indexApplication.html
+2022-09-15 09:52:57,899:DEBUG:TestApplication:Page before loading: https://plleads.muthootfinance.com/indexApplication.html
+2022-09-15 09:52:58,150:DEBUG:TestApplication:Load URL: https://plleads.muthootfinance.com/indexApplication.html
+2022-09-15 09:52:58,154:DEBUG:TestApplication:Page after loading: https://plleads.muthootfinance.com/indexApplication.html
+2022-09-15 09:52:58,155:DEBUG:TestApplication:Select element by:id, loc:ddlarea, by value "11112"
+2022-09-15 09:52:58,155:DEBUG:TestApplication:Finding elemnt by: id locator: ddlarea
+2022-09-15 09:53:28,670:DEBUG:TestApplication:Element not found
+2022-09-15 09:56:12,467:DEBUG:TestApplication:TestApplication logger initialized
+2022-09-15 09:56:14,770:DEBUG:TestApplication:Page before loading: data:,
+2022-09-15 09:56:17,206:DEBUG:TestApplication:Load URL: https://plleads.muthootfinance.com/indexApplication.html
+2022-09-15 09:56:17,209:DEBUG:TestApplication:Page after loading: https://plleads.muthootfinance.com/indexApplication.html
+2022-09-15 09:56:17,218:DEBUG:TestApplication:Page before loading: https://plleads.muthootfinance.com/indexApplication.html
+2022-09-15 09:56:17,469:DEBUG:TestApplication:Load URL: https://plleads.muthootfinance.com/indexApplication.html
+2022-09-15 09:56:17,472:DEBUG:TestApplication:Page after loading: https://plleads.muthootfinance.com/indexApplication.html
+2022-09-15 09:56:17,473:DEBUG:TestApplication:Select element by:id, loc:ddlarea, by value "11112"
+2022-09-15 09:56:17,473:DEBUG:TestApplication:Finding elemnt by: id locator: ddlarea
+2022-09-15 09:56:48,002:DEBUG:TestApplication:Element not found
