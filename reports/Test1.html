@@ -243,7 +243,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>Test1.html</h1>
-    <p>Report generated on 15-Sep-2022 at 09:56:48 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
+    <p>Report generated on 15-Sep-2022 at 10:54:20 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -259,7 +259,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Python</td>
         <td>3.9.7</td></tr></table>
     <h2>Summary</h2>
-    <p>2 tests ran in 36.08 seconds. </p>
+    <p>2 tests ran in 38.78 seconds. </p>
     <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
@@ -275,11 +275,11 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">testCases/test_first.py::TestApplication::test_fillApp</td>
-          <td class="col-duration">31.02</td>
+          <td class="col-duration">31.98</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">self = &lt;testCases.test_first.TestApplication object at 0x7fd8c0c4f280&gt;<br/><br/>    def test_fillApp(self):<br/>        self.ku.load_url(self.config.get_value(&#x27;url&#x27;))<br/>        self.asp = ApplicationSubmissionPage(self.driver,self.logger)<br/>&gt;       self.asp.select_service_area(&#x27;11112&#x27;)<br/><br/>testCases/test_first.py:17: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/>pageObjects/ApplicationSubmissionPage.py:21: in select_service_area<br/>    self.ku.select_by_value(By.ID,self._sa_dd_id,value)<br/>utilities/KeywordUtils.py:44: in select_by_value<br/>    self.wait.until(ec.visibility_of(e))<br/>venv/lib/python3.9/site-packages/selenium/webdriver/support/wait.py:81: in until<br/>    value = method(self._driver)<br/>venv/lib/python3.9/site-packages/selenium/webdriver/support/expected_conditions.py:141: in _predicate<br/>    return _element_if_visible(element)<br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>element = None, visibility = True<br/><br/>    def _element_if_visible(element, visibility=True):<br/>&gt;       return element if element.is_displayed() == visibility else False<br/><span class="error">E       AttributeError: &#x27;NoneType&#x27; object has no attribute &#x27;is_displayed&#x27;</span><br/><br/>venv/lib/python3.9/site-packages/selenium/webdriver/support/expected_conditions.py:147: AttributeError<br/> ------------------------------Captured stderr call------------------------------ <br/>Page before loading: https://plleads.muthootfinance.com/indexApplication.html
+            <div class="log">self = &lt;testCases.test_first.TestApplication object at 0x7fe78f472c10&gt;<br/><br/>    def test_fillApp(self):<br/>        self.ku.load_url(self.config.get_value(&#x27;url&#x27;))<br/>        self.asp = ApplicationSubmissionPage(self.driver,self.logger)<br/>&gt;       self.asp.select_service_area(&#x27;11112&#x27;)<br/><br/>testCases/test_first.py:17: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/>pageObjects/ApplicationSubmissionPage.py:21: in select_service_area<br/>    self.ku.select_by_value(By.ID,self._sa_dd_id,value)<br/>utilities/KeywordUtils.py:44: in select_by_value<br/>    self.wait.until(ec.visibility_of(e))<br/>venv/lib/python3.9/site-packages/selenium/webdriver/support/wait.py:81: in until<br/>    value = method(self._driver)<br/>venv/lib/python3.9/site-packages/selenium/webdriver/support/expected_conditions.py:141: in _predicate<br/>    return _element_if_visible(element)<br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>element = None, visibility = True<br/><br/>    def _element_if_visible(element, visibility=True):<br/>&gt;       return element if element.is_displayed() == visibility else False<br/><span class="error">E       AttributeError: &#x27;NoneType&#x27; object has no attribute &#x27;is_displayed&#x27;</span><br/><br/>venv/lib/python3.9/site-packages/selenium/webdriver/support/expected_conditions.py:147: AttributeError<br/> ------------------------------Captured stderr call------------------------------ <br/>Page before loading: https://plleads.muthootfinance.com/indexApplication.html
 Load URL: https://plleads.muthootfinance.com/indexApplication.html
 Page after loading: https://plleads.muthootfinance.com/indexApplication.html
 Select element by:id, loc:ddlarea, by value &quot;11112&quot;
@@ -295,7 +295,7 @@ DEBUG    TestApplication:KeywordUtils.py:26 Element not found<br/></div></td></t
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">testCases/test_first.py::TestApplication::test_title_validation</td>
-          <td class="col-duration">4.74</td>
+          <td class="col-duration">6.22</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">

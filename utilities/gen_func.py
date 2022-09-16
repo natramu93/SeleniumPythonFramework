@@ -1,6 +1,7 @@
 import logging
 
 def initialize_logger(name):
+    a = 10
     logger = logging.getLogger(name)
     logger.propogate = False
     formater = logging.Formatter('%(asctime)s:%(levelname)s:%(name)s:%(message)s')

@@ -3,10 +3,12 @@ import datetime
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
 import selenium.webdriver.support.expected_conditions as ec
+from selenium.webdriver.common.action_chains import ActionChains
 
 class KeywordUtils():
     def __init__(self,driver,logger):
         self.driver = driver
+        self.action = ActionChains(driver)
         self.wait = WebDriverWait(driver,30)
         self.logger = logger
 
@@ -24,7 +26,7 @@ class KeywordUtils():
             e = self.driver.find_element(by,loc)
         except:
             self.logger.debug('Element not found')
-            self.driver.get_screenshot_as_file(f'screenshots/{datetime.datetime.now()}-{by}-{loc}.png')
+            self.driver.get_screenshot_as_file(f'screenshots/{datetime.datetime.now().strftime("%Y-%m-%d %H-%M")}-{by}-{loc}.png')
             e = None
         return e
 
@@ -57,4 +59,8 @@ class KeywordUtils():
             el.send_keys(value)
         except:
             self.logger.debug('Type data failed')
+
+    def mouse_over(self,by,loc):
+        e = self.find_element(by,loc)
+        self.action.move_to_element(e).perform()
 

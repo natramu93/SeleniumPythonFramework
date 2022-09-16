@@ -22,3 +22,5 @@ class TestApplication():
         self.asp.pan_ip(self.config.get_value('pan'))
         text = self.asp.click_verify()
         assert text == 'Activation Key is sent to 1234567890'
+
+
